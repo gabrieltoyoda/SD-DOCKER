@@ -1,0 +1,15 @@
+.Input {
+  border-radius: 5px;
+  border: 2px solid #ccc;
+  font-size: 1em;
+  outline: none;
+  padding: 10px;
+  transition: border 0.2s, box-shadow 0.2s;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.Input:focus {
+  border: 2px solid #1897f9;
+  box-shadow: 0 0 5px rgba(24, 151, 249, 0.5);
+}
